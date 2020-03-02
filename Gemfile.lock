@@ -59,7 +59,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.12.2)
+    coffee-script-source (1.8.0)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     erubi (1.9.0)
@@ -81,7 +81,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     nio4r (2.5.2)
-    nokogiri (1.10.8-x86-mingw32)
+    nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     pg (1.2.2-x86-mingw32)
     public_suffix (4.0.3)
@@ -170,6 +170,7 @@ DEPENDENCIES
   byebug (~> 11.0.1)
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
+  coffee-script-source (~> 1.8.0)
   jbuilder (~> 2.5)
   pg (~> 1.2.2)
   puma (~> 3.7)
