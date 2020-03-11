@@ -3,6 +3,8 @@ class Burger < ApplicationRecord
         product = Openfoodfacts::Product.get(self.code, locale: 'fr')
         if product
             return product.nutriments.to_hash
+        else
+            return ["nutri" => "Pas de nutriment"]
         end
     end
 end
