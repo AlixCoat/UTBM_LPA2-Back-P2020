@@ -4,7 +4,7 @@ class Burger < ApplicationRecord
         if product
             return product.nutriments.to_hash
         else
-            return ["nutri" => "Pas de nutriment"]
+            return {"No data" =>"No data"}
         end
     end
 end
